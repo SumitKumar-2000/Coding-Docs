@@ -1,0 +1,1 @@
+{"name":"Local: maximumsumpath","url":"c:\\Users\\admin\\OneDrive\\Desktop\\vs_c++\\maximumsumpath.cpp","tests":[{"id":1628030658562,"input":"1\n8 8\n2 3 7 10 12 15 30 34\n1 5 7 8 10 15 16 19","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\admin\\OneDrive\\Desktop\\vs_c++\\maximumsumpath.cpp","group":"local","local":true}

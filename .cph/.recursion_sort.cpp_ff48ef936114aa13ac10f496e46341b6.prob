@@ -1,0 +1,1 @@
+{"name":"Local: recursion_sort","url":"c:\\Users\\admin\\OneDrive\\Desktop\\vs_c++\\recursion_sort.cpp","tests":[{"id":1628001173279,"input":"7\n2 3 7 6 4 5 9","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\admin\\OneDrive\\Desktop\\vs_c++\\recursion_sort.cpp","group":"local","local":true}
