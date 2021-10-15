@@ -6,7 +6,7 @@ void permutation(string s,string s1,int i){
 	//base case 
 	if(s[i] == '\0'){
 			// cout<<s<<endl;
-			v.push_back(s);
+		v.push_back(s);
 		return;
 	}
 	// recursive case

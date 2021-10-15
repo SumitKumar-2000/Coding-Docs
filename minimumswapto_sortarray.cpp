@@ -7,7 +7,7 @@ int a[n];
 for(int=0;i<n;i++){
     cin>>a[i];
 }
-pair<int,int> arrpos[n]; //creating pair for array
+Pair<int,int> arrpos[n]; //creating Pair for array
 for(int i=0;i<n;i++){
     arrpos[i].first = arr[i];
     arrpos[i].second = i;

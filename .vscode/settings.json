@@ -6,7 +6,12 @@
         "istream": "cpp",
         "initializer_list": "cpp",
         "type_traits": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "list": "cpp",
+        "algorithm": "cpp",
+        "limits": "cpp",
+        "utility": "cpp",
+        "unordered_map": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
