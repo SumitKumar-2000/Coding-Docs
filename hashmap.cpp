@@ -82,7 +82,7 @@ public:
 	}
 
 	node* search(string key) {
-		int indx = hash_function(key);
+		int indx = hash_function(key); 
 		node* head = a[indx];
 		while (head) {
 			if (head->key == key) {

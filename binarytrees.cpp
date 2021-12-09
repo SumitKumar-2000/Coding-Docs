@@ -246,19 +246,6 @@ int countNodes(node* root) {
 	return countNodes(root->left) + countNodes(root->right) + 1;
 }
 
-int height(node *root) {
-	// base case
-	if (root == NULL) {
-		return 0;
-	}
-
-	// recursive case
-	int left_height = height(root->left);
-	int right_height = height(root->right);
-
-	return max(left_height, right_height) + 1;
-}
-
 int diameter(node* root) {
 	// base case
 	if (root == NULL) {
