@@ -1,49 +1,46 @@
 #include<bits/stdc++.h>
 using namespace std;
-
-void insert_at_bottom(stack<int> &s,int topElement){
+void insertAtend(stack<int> &s,int topElement){
     //base case
-    if(s.empty()){
+    if(s.size() == 0){
         s.push(topElement);
         return;
     }
-
     //recursive case
     int top = s.top();
     s.pop();
-    insert_at_bottom(s,topElement);
+    insertAtend(s,topElement);
     s.push(top);
 }
 
-void reverse_stack(stack<int> &s){
-    //base case
-    if(s.empty()){
-        return ;
+void Reverse_stack(stack<int> &s){
+    //base case 
+    if(s.size() == 1){
+        return;
     }
     //recursive case
     int topElement = s.top();
     s.pop();
-    reverse_stack(s);
-    insert_at_bottom(s,topElement);
+    Reverse_stack(s);
+    insertAtend(s,topElement);
 }
 
 void printstack(stack<int> s){
-    while(!s.empty()){
+    while(s.size() != 0){
         cout<<s.top()<<" ";
         s.pop();
     }
     cout<<endl;
 }
-
 int main(){
     stack<int> s;
-    s.push(1);
-    s.push(2);
-    s.push(3);
+    s.push(1);    
+    s.push(2);    
+    s.push(3);    
     s.push(4);
 
     printstack(s);
-    reverse_stack(s);
+    Reverse_stack(s);
     printstack(s);
 
     return 0;
