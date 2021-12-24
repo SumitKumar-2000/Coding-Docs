@@ -9,9 +9,12 @@ public:
         data = d;
         next = NULL;
     }
+
 };
+
 class Queuee{
-    node *head, *tail;
+    node *head;
+    node *tail;
 public:
     Queuee(){
         head = tail = NULL;
@@ -20,7 +23,7 @@ public:
     // pushing elements from tail
     void push(int data){
         node *n = new node(data);
-        if(head = tail = NULL){
+        if(head == NULL){
             head = tail = n;
         }
         else{
