@@ -109,6 +109,6 @@ int main(){
 
     cout<<A<<endl;   //returning os, using ostream &operator(ostream &os,Car &A)
 
-    cout<<Car::count<<endl;
+    cout<<Car::count<<endl;   // showing 4 cars
     return 0;
 }
