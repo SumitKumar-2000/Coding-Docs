@@ -36,7 +36,8 @@ bool isbalanced(string st){
     return false;
 }
 int main(){
-    string st = "{[a+b]*e+(f+d)}";
+    string st;
+    cin>>st;
     if(isbalanced(st)){
         cout<<"Balanced"<<endl;
     }
